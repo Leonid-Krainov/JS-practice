@@ -1,5 +1,5 @@
 let creditCalculation = function(summ,duration,rate){
-	let overPayment = 0;
+    let overPayment = 0;
     let durationMonth = duration * 12;
     let monthPay = summ/durationMonth;
     let currentSumm = summ;
